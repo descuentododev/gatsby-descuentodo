@@ -1,6 +1,6 @@
 ---
 language: en
-title: 30% de descuento en Levis
+title: 30% disccount on Levis
 category:
   - cashback
 ---
