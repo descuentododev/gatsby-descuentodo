@@ -12,8 +12,8 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - label: "Coupon in English"
-    name: "english_coupon"
+  - name: "english_coupon"
+    label: "Coupon in English"
     folder: "src/pages/coupon"
     create: true
     filter: {field: "language", value: "en"}
@@ -22,8 +22,9 @@ collections:
       - {label: "Category", name: "category", widget: "list"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Content", name: "body", widget: "markdown"}
-  - label: "Cupones en Español"
-    name: "spanish_coupon"
+
+  - name: "spanish_coupon"
+    label: "Cupones en Español"
     folder: "src/pages/coupon"
     create: true
     filter: {field: "language", value: "es"}
