@@ -18,10 +18,15 @@ collections:
     create: true
     filter: {field: "language", value: "en"}
     fields:
-      - {label: "Language", name: "language", widget: "hidden", default: "en"}
+      - {label: "Language", name: "language", widget: "hidden", default: "es"}
       - {label: "Category", name: "category", widget: "list"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Content", name: "body", widget: "markdown"}
+      - {label: "URL", name: "url", widget: "string"}
+      - {label: "Coupon Code", name: "couponCode", widget: "string"}
+      - {label: "Featured Image", name: "featuredimage", widget: image}
+      - {label: "Featured Words", name: "featuredWords", widget: "string"}
+      - {label: "Expira", name: "expireDate", widget: date}
+      - {label: "Detalles", name: "details", widget: "markdown"}
 
   - name: "spanish_coupon"
     label: "Cupones en Español"
@@ -32,7 +37,13 @@ collections:
       - {label: "Lenguaje", name: "language", widget: "hidden", default: "es"}
       - {label: "Categoría", name: "category", widget: "list"}
       - {label: "Titulo", name: "title", widget: "string"}
-      - {label: "Contenido", name: "body", widget: "markdown"}
+      - {label: "URL", name: "url", widget: "string"}
+      - {label: "Codigo de cupon", name: "couponCode", widget: "string"}
+      - {label: "Imagen Destacada", name: "featuredimage", widget: image}
+      - {label: "Texto Destacado", name: "featuredWords", widget: "string"}
+      - {label: "Expira", name: "expireDate", widget: date}
+      - {label: "Detalles", name: "details", widget: "markdown"}
+      
 
 
   - name: "blog"
