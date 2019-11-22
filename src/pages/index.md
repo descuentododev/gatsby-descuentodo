@@ -1,8 +1,8 @@
 ---
 templateKey: index-page
-title: Encuentra los mejores cupones de descuento, ofertas y rebajasDescuentos y ofertas
+title: Encuentra los mejores cupones de descuento, ofertas y rebajas
 image: /img/home-jumbotron.jpg
-heading: Descuentos y ofertas
+heading: Descuentos y ofertas (futuro banner?)
 subheading: Ahorras al encontrar el mejor precio cuando compras en línea
 mainpitch:
   title: Why Kaldi
@@ -12,7 +12,7 @@ mainpitch:
     directly from small scale sustainable farmers and make sure part of the
     profits are reinvested in their communities.
 description: >-
-  Descuentos de productos en la web. Encuentra las mejores ofertas de productos online y ahorrá hasta el 90%;
+  Descuentos de productos en la web. Encuentra las mejores ofertas de productos online y ahorrá hasta el 90%
 intro:
   blurbs:
     - image: /img/coffee.png

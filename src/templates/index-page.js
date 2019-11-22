@@ -96,7 +96,7 @@ export const IndexPageTemplate = ({
                 </div> */}
                 <div className="column is-12">
                   <h3 className="has-text-weight-semibold is-size-2">
-                    Últimos cupones
+                  Todas las rebajas y cupones descuento que buscas!
                   </h3>
                   <BlogRoll />
                   <div className="column is-12 has-text-centered">
