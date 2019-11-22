@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import github from '../img/github-icon.svg'
-import logo from '../img/logo.svg'
+import github from '../img/notifications.svg'
+import logo from '../img/descuentodo-red.svg'
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -42,7 +42,7 @@ const Navbar = class extends React.Component {
         <div className="container">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
+              <img src={logo} alt="Descuentodo" style={{ width: '88px' }} />
             </Link>
             {/* Hamburger menu */}
             <div
@@ -59,8 +59,14 @@ const Navbar = class extends React.Component {
             id="navMenu"
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
+            <div className="navbar-center has-text-centered">
+             <form className="form-search" role="search" action="/search.php" method="get">
+              <input className="search-input" name="query" type="search" placeholder="Busca tu Descuento" aria-label="Search" autoComplete="off" maxLength="100" defaultValue=""></input>
+            </form>
+            </div>
             <div className="navbar-start has-text-centered">
-              <Link className="navbar-item" to="/about">
+           
+              {/* <Link className="navbar-item" to="/about">
                 About
               </Link>
               <Link className="navbar-item" to="/products">
@@ -74,7 +80,7 @@ const Navbar = class extends React.Component {
               </Link>
               <Link className="navbar-item" to="/contact/examples">
                 Form Examples
-              </Link>
+              </Link> */}
             </div>
             <div className="navbar-end has-text-centered">
               <a
